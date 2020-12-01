@@ -37,7 +37,5 @@
     "type": "git",
     "url": "git+https://github.com/carlocaprini/gitbook-plugin-insert-logo-by-theme.git"
   },
-  "dependencies": {
-    "my-package": "0.0.0"
-  }
+  "dependencies": {}
 }
