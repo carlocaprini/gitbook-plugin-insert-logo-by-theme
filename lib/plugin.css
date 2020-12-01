@@ -1,4 +1,26 @@
-.book .book-summary .book-logo {
-    text-align: center;
-    padding: 20px;
+.book .book-summary .book-logo.logo-sepia,
+.book .book-summary .book-logo.logo-night {
+    display: none;
+}
+
+.book .book-summary .book-logo.logo-white {
+    display: block;
+}
+
+.book.color-theme-1 .book-summary .book-logo.logo-white,
+.book.color-theme-1 .book-summary .book-logo.logo-night {
+    display: none;
+}
+
+.book.color-theme-1 .book-summary .book-logo.logo-sepia {
+    display: block;
+}
+
+.book.color-theme-2 .book-summary .book-logo.logo-white,
+.book.color-theme-2 .book-summary .book-logo.logo-sepia {
+    display: none;
+}
+
+.book.color-theme-2 .book-summary .book-logo.logo-night {
+    display: block;
 }
